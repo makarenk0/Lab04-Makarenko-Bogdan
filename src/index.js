@@ -1,3 +1,5 @@
+import './scss/main.scss';
+
 window.onload = function(){
 	console.log(`The time is ${new Date()}`);
 	var wrapper = document.getElementsByTagName('main')[0];
