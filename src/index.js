@@ -1,5 +1,5 @@
 window.onload = function(){
-	
+	console.log(`The time is ${new Date()}`);
 	var wrapper = document.getElementsByTagName('main')[0];
     var popupCart = document.getElementsByClassName('popupCart')[0];
     var cartList = document.getElementsByClassName('cartList')[0];
